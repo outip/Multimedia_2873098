@@ -46,6 +46,7 @@
   section.body .imagen img {
     margin: 0 auto;
     display: block;
+    max-width: 100%;
   }
   section.body p {
     margin: 10px 0;
