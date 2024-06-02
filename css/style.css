@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  header {
+    background: green;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header .logo {
+    width: 200px;
+  }
+  
+  header .logo img {
+    max-width: 100%;
+    max-height: 50px;
+  }
+  
+  header .nav {
+    display: flex;
+    gap: 10px;
+  }
+  
+  header .nav .link {
+    padding: 5px;
+    background: wheat;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  header .nav .link:hover {
+    transition: linear .5s;
+    background: rgb(255, 255, 255);
+  }
+  
+  /* CUERPO */
+  section.body {
+    padding: 10px 20px;
+  }
+  section.body .imagen {
+    background: lightgray;
+  }
+  
+  section.body .imagen img {
+    margin: 0 auto;
+    display: block;
+  }
+  section.body p {
+    margin: 10px 0;
+  }
