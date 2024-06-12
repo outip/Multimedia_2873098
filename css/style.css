@@ -1,53 +1,58 @@
 * {
-    padding: 0;
-    margin: 0;
-  }
-  header {
-    background: green;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  header .logo {
-    width: 200px;
-  }
-  
-  header .logo img {
-    max-width: 100%;
-    max-height: 50px;
-  }
-  
-  header .nav {
-    display: flex;
-    gap: 10px;
-  }
-  
-  header .nav .link {
-    padding: 5px;
-    background: wheat;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-  }
-  
-  header .nav .link:hover {
-    transition: linear .5s;
-    background: rgb(255, 255, 255);
-  }
-  
-  /* CUERPO */
-  section.body {
-    padding: 10px 20px;
-  }
-  section.body .imagen {
-    background: lightgray;
-  }
-  
-  section.body .imagen img {
-    margin: 0 auto;
-    display: block;
-    max-width: 100%;
-  }
-  section.body p {
-    margin: 10px 0;
-  }
+  padding: 0;
+  margin: 0;
+}
+header {
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px rgb(19, 104, 33);
+}
+
+header .logo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  padding: 5px 10px;
+  max-width: 100%;
+  max-height: 50px;
+}
+
+header .nav {
+  display: flex;
+  gap: 10px;
+}
+
+header .nav .link {
+  padding: 5px;
+  background: wheat;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+header .nav .link:hover {
+  transition: linear .5s;
+  background: rgb(255, 255, 255);
+}
+
+/* CUERPO */
+section.body {
+  padding: 10px 20px;
+  padding-bottom: 3rem;
+}
+section.body .imagen {
+  background: lightgray;
+}
+
+section.body .imagen img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+section.body p {
+  margin: 10px 0;
+}
