@@ -1,16 +1,18 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header {
   background: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   border-bottom: solid 1px rgb(19, 104, 33);
+  background: rgba(19, 104, 33, .18);
 }
 
 header .logo {
-  width: 200px;
+  width: 220px;
   display: flex;
   align-items: center;
 }
@@ -18,7 +20,7 @@ header .logo {
 header .logo img {
   padding: 5px 10px;
   max-width: 100%;
-  max-height: 50px;
+  max-height: 70px;
 }
 
 header .nav {
@@ -28,15 +30,16 @@ header .nav {
 
 header .nav .link {
   padding: 5px;
-  background: wheat;
   display: flex;
   align-items: center;
   cursor: pointer;
+  transition: linear .3s;
+  text-decoration: none;
 }
 
 header .nav .link:hover {
-  transition: linear .5s;
-  background: rgb(255, 255, 255);
+  color: #FFF;
+  background: rgba(19, 104, 33, .5);
 }
 
 /* CUERPO */
@@ -63,6 +66,18 @@ section.body .info img {
 }
 section.body p {
   margin: 10px 0;
+}
+
+section.body .information {
+  display: grid;
+  line-height: 1.9rem;
+  grid-template-columns: 1.8fr 1fr;
+}
+
+
+section.body .information img{
+  max-width: 100%;
+  border-radius: .3rem;
 }
 
 .whatsapp {
